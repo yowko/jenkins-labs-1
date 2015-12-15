@@ -24,7 +24,7 @@ namespace Nop.Web.Controllers
         private readonly CustomerSettings _customerSettings;
         
         #endregion
-
+        //Yowko Triggr
 		#region Constructors
 
         public BackInStockSubscriptionController(IProductService productService,
