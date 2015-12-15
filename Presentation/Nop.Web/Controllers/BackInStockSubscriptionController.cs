@@ -11,7 +11,7 @@ using Nop.Web.Models.Common;
 
 namespace Nop.Web.Controllers
 {
-    public partial class BackInStockSubscriptionController : BasePublicController
+    public partial class BackInStockSubscriptionController : Base1PublicController
     {
 		#region Fields
 
