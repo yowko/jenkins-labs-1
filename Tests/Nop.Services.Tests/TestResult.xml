@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Nop.Services.Tests.csproj" total="143" errors="30" failures="4" not-run="3" inconclusive="0" ignored="3" skipped="0" invalid="0" date="2015-12-17" time="09:37:48">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests" machine-name="YOWKO151215" user="yowko151215" user-domain="YOWKO151215" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Nop.Services.Tests.csproj" executed="True" result="Failure" success="False" time="8.320" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\bin\Debug\Nop.Services.Tests.dll" executed="True" result="Failure" success="False" time="8.310" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Nop" executed="True" result="Failure" success="False" time="8.309" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Services" executed="True" result="Failure" success="False" time="8.309" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="8.309" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Catalog" executed="True" result="Success" success="True" time="1.817" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="PriceCalculationServiceTests" executed="True" result="Success" success="True" time="0.749" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Catalog.PriceCalculationServiceTests.Can_get_final_product_price" executed="True" result="Success" success="True" time="0.593" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Catalog.PriceCalculationServiceTests.Can_get_final_product_price_with_additionalFee" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Catalog.PriceCalculationServiceTests.Can_get_final_product_price_with_discount" executed="True" result="Success" success="True" time="0.040" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Catalog.PriceCalculationServiceTests.Can_get_final_product_price_with_special_price" executed="True" result="Success" success="True" time="0.049" asserts="3" />
+                              <test-case name="Nop.Services.Tests.Catalog.PriceCalculationServiceTests.Can_get_final_product_price_with_tier_prices" executed="True" result="Success" success="True" time="0.028" asserts="4" />
+                              <test-case name="Nop.Services.Tests.Catalog.PriceCalculationServiceTests.Can_get_final_product_price_with_tier_prices_by_customerRole" executed="True" result="Success" success="True" time="0.004" asserts="5" />
+                              <test-case name="Nop.Services.Tests.Catalog.PriceCalculationServiceTests.Can_get_shopping_cart_item_subTotal" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Catalog.PriceCalculationServiceTests.Can_get_shopping_cart_item_unitPrice" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="PriceFormatterTests" executed="True" result="Success" success="True" time="0.162" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Catalog.PriceFormatterTests.Can_formatPrice_with_custom_currencyFormatting" executed="True" result="Success" success="True" time="0.154" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Catalog.PriceFormatterTests.Can_formatPrice_with_distinct_currencyDisplayLocale" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Catalog.PriceFormatterTests.Can_formatPrice_with_showCurrencyCode" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Catalog.PriceFormatterTests.Can_formatPrice_with_showTax" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="ProductAttributeParserTests" executed="True" result="Success" success="True" time="0.859" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Catalog.ProductAttributeParserTests.Can_add_and_parse_giftCardAttributes" executed="True" result="Success" success="True" time="0.720" asserts="5" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductAttributeParserTests.Can_add_and_parse_productAttributes" executed="True" result="Success" success="True" time="0.025" asserts="8" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductAttributeParserTests.Can_add_and_remove_productAttributes" executed="True" result="Success" success="True" time="0.006" asserts="6" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductAttributeParserTests.Can_render_attributes_withoutPrices" executed="True" result="Success" success="True" time="0.094" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductAttributeParserTests.Can_render_physical_gift_cart" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductAttributeParserTests.Can_render_virtual_gift_cart" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="ProductExtensionTests" executed="True" result="Success" success="True" time="0.022" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Catalog.ProductExtensionTests.Can_calculate_rental_periods_for_days" executed="True" result="Success" success="True" time="0.003" asserts="8" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductExtensionTests.Can_calculate_rental_periods_for_months" executed="True" result="Success" success="True" time="0.002" asserts="24" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductExtensionTests.Can_calculate_rental_periods_for_weeks" executed="True" result="Success" success="True" time="0.001" asserts="12" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductExtensionTests.Can_calculate_rental_periods_for_years" executed="True" result="Success" success="True" time="0.001" asserts="7" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductExtensionTests.Can_calculate_total_quantity_when_we_do_not_use_multiple_warehouses" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductExtensionTests.Can_calculate_total_quantity_when_we_do_use_multiple_warehouses_with_reserved" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductExtensionTests.Can_calculate_total_quantity_when_we_do_use_multiple_warehouses_with_warehouse_specified" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductExtensionTests.Can_calculate_total_quantity_when_we_do_use_multiple_warehouses_without_reserved" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Catalog.ProductExtensionTests.Can_parse_allowed_quantities" executed="True" result="Success" success="True" time="0.001" asserts="5" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="TierPriceExtensionTests" executed="True" result="Success" success="True" time="0.012" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Catalog.TierPriceExtensionTests.Can_remove_duplicatedQuantities" executed="True" result="Success" success="True" time="0.011" asserts="6" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Configuration" executed="True" result="Failure" success="False" time="0.040" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="ConfigFileSettingServiceTests" executed="True" result="Failure" success="False" time="0.033" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Configuration.ConfigFileSettingServiceTests.Can_get_all_settings" executed="True" result="Failure" success="False" time="0.016" asserts="2">
+                                <failure>
+                                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                                  <stack-trace><![CDATA[at Nop.Tests.TestExtensions.ShouldBeTrue(Boolean source) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Tests\TestExtensions.cs:line 82
+at Nop.Services.Tests.Configuration.ConfigFileSettingServiceTests.Can_get_all_settings() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Configuration\ConfigFileSettingServiceTests.cs:line 29
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Configuration.ConfigFileSettingServiceTests.Can_get_setting_by_key" executed="True" result="Failure" success="False" time="0.006" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Expected: "SomeValue"
+  But was:  null
+]]></message>
+                                  <stack-trace><![CDATA[at Nop.Tests.TestExtensions.ShouldEqual[T](T actual, Object expected) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Tests\TestExtensions.cs:line 34
+at Nop.Services.Tests.Configuration.ConfigFileSettingServiceTests.Can_get_setting_by_key() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Configuration\ConfigFileSettingServiceTests.cs:line 36
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Configuration.ConfigFileSettingServiceTests.Can_get_typed_setting_value_by_key" executed="True" result="Failure" success="False" time="0.003" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Expected: 2010-12-25 00:00:00.000
+  But was:  0001-01-01 00:00:00.000
+]]></message>
+                                  <stack-trace><![CDATA[at Nop.Tests.TestExtensions.ShouldEqual[T](T actual, Object expected) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Tests\TestExtensions.cs:line 34
+at Nop.Services.Tests.Configuration.ConfigFileSettingServiceTests.Can_get_typed_setting_value_by_key() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Configuration\ConfigFileSettingServiceTests.cs:line 43
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Configuration.ConfigFileSettingServiceTests.Default_value_returned_if_setting_does_not_exist" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="ConfigurationProviderTests" executed="True" result="Failure" success="False" time="0.005" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Configuration.ConfigurationProviderTests.Can_get_settings" executed="True" result="Failure" success="False" time="0.003" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Expected: "Ruby"
+  But was:  null
+]]></message>
+                                  <stack-trace><![CDATA[at Nop.Tests.TestExtensions.ShouldEqual[T](T actual, Object expected) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Tests\TestExtensions.cs:line 34
+at Nop.Services.Tests.Configuration.ConfigurationProviderTests.Can_get_settings() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Configuration\ConfigurationProviderTests.cs:line 24
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Customers" executed="True" result="Success" success="True" time="0.821" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="CustomerExtensionTests" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+                          <test-suite type="TestFixture" name="CustomerRegistrationServiceTests" executed="True" result="Success" success="True" time="0.820" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Customers.CustomerRegistrationServiceTests.Can_validate_a_clear_password" executed="True" result="Success" success="True" time="0.805" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Customers.CustomerRegistrationServiceTests.Can_validate_a_hashed_password" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Customers.CustomerRegistrationServiceTests.Can_validate_an_encrypted_password" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Customers.CustomerRegistrationServiceTests.Ensure_only_registered_customers_can_login" executed="True" result="Success" success="True" time="0.004" asserts="2" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Directory" executed="True" result="Failure" success="False" time="0.423" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="CurrencyServiceTests" executed="True" result="Failure" success="False" time="0.263" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Directory.CurrencyServiceTests.Can_convert_currency_1" executed="True" result="Success" success="True" time="0.007" asserts="4" />
+                              <test-case name="Nop.Services.Tests.Directory.CurrencyServiceTests.Can_convert_currency_2" executed="True" result="Success" success="True" time="0.017" asserts="5" />
+                              <test-case name="Nop.Services.Tests.Directory.CurrencyServiceTests.Can_load_active_exchangeRateProvider" executed="True" result="Error" success="False" time="0.224" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.IO.FileLoadException : Could not load file or assembly 'System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Infrastructure.NopEngine.RegisterDependencies(NopConfig config)
+at Nop.Core.Infrastructure.NopEngine.Initialize(NopConfig config) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Infrastructure\NopEngine.cs:line 89
+at Nop.Core.Infrastructure.EngineContext.Initialize(Boolean forceRecreate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Infrastructure\EngineContext.cs:line 26
+at Nop.Core.Infrastructure.EngineContext.get_Current() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Infrastructure\EngineContext.cs:line 54
+at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Directory.CurrencyService.LoadAllExchangeRateProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Directory\CurrencyService.cs:line 366
+at Nop.Services.Directory.CurrencyService.LoadActiveExchangeRateProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Directory\CurrencyService.cs:line 341
+at Nop.Services.Tests.Directory.CurrencyServiceTests.Can_load_active_exchangeRateProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Directory\CurrencyServiceTests.cs:line 111
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Directory.CurrencyServiceTests.Can_load_exchangeRateProvider_by_systemKeyword" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Services.Directory.CurrencyService.LoadExchangeRateProviderBySystemName(String systemName) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Directory\CurrencyService.cs:line 354
+at Nop.Services.Tests.Directory.CurrencyServiceTests.Can_load_exchangeRateProvider_by_systemKeyword() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Directory\CurrencyServiceTests.cs:line 104
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Directory.CurrencyServiceTests.Can_load_exchangeRateProviders" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+at System.Linq.OrderedEnumerable`1.<GetEnumerator>d__1.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Directory.CurrencyService.LoadAllExchangeRateProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Directory\CurrencyService.cs:line 366
+at Nop.Services.Tests.Directory.CurrencyServiceTests.Can_load_exchangeRateProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Directory\CurrencyServiceTests.cs:line 96
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="MeasureServiceTests" executed="True" result="Success" success="True" time="0.156" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Directory.MeasureServiceTests.Can_convert_dimension" executed="True" result="Success" success="True" time="0.150" asserts="5" />
+                              <test-case name="Nop.Services.Tests.Directory.MeasureServiceTests.Can_convert_weight" executed="True" result="Success" success="True" time="0.004" asserts="5" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Discounts" executed="True" result="Failure" success="False" time="0.426" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="DiscountExtensionsTests" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Discounts.DiscountExtensionsTests.Can_calculate_discount_amount_fixed" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Discounts.DiscountExtensionsTests.Can_calculate_discount_amount_percentage" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Discounts.DiscountExtensionsTests.Maximum_discount_amount_is_used" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="DiscountServiceTests" executed="True" result="Failure" success="False" time="0.420" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Discounts.DiscountServiceTests.Can_get_all_discount" executed="True" result="Success" success="True" time="0.163" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Discounts.DiscountServiceTests.Can_load_discountRequirementRuleBySystemKeyword" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Services.Discounts.DiscountService.LoadDiscountRequirementRuleBySystemName(String systemName) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Discounts\DiscountService.cs:line 255
+at Nop.Services.Tests.Discounts.DiscountServiceTests.Can_load_discountRequirementRuleBySystemKeyword() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Discounts\DiscountServiceTests.cs:line 100
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Discounts.DiscountServiceTests.Can_load_discountRequirementRules" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Discounts.DiscountService.LoadAllDiscountRequirementRules() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Discounts\DiscountService.cs:line 267
+at Nop.Services.Tests.Discounts.DiscountServiceTests.Can_load_discountRequirementRules() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Discounts\DiscountServiceTests.cs:line 92
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Discounts.DiscountServiceTests.Can_validate_discount_dateRange" executed="True" result="Error" success="False" time="0.173" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Services.Discounts.DiscountService.ValidateDiscount(Discount discount, Customer customer, String couponCodeToValidate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Discounts\DiscountService.cs:line 400
+at Nop.Services.Discounts.DiscountService.ValidateDiscount(Discount discount, Customer customer) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Discounts\DiscountService.cs:line 300
+at Nop.Services.Tests.Discounts.DiscountServiceTests.Can_validate_discount_dateRange() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Discounts\DiscountServiceTests.cs:line 217
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Discounts.DiscountServiceTests.Should_accept_valid_discount_code" executed="True" result="Error" success="False" time="0.069" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Services.Discounts.DiscountService.ValidateDiscount(Discount discount, Customer customer, String couponCodeToValidate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Discounts\DiscountService.cs:line 400
+at Nop.Services.Discounts.DiscountService.ValidateDiscount(Discount discount, Customer customer) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Discounts\DiscountService.cs:line 300
+at Nop.Services.Tests.Discounts.DiscountServiceTests.Should_accept_valid_discount_code() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Discounts\DiscountServiceTests.cs:line 148
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Discounts.DiscountServiceTests.Should_not_accept_wrong_discount_code" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="ExportImport" executed="True" result="Success" success="True" time="0.092" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="ExportManagerTests" executed="True" result="Success" success="True" time="0.091" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.ExportImport.ExportManagerTests.Can_export_orders_xlsx" executed="True" result="Success" success="True" time="0.091" asserts="0" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Helpers" executed="True" result="Success" success="True" time="0.146" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="DateTimeHelperTests" executed="True" result="Success" success="True" time="0.127" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Helpers.DateTimeHelperTests.Can_convert_dateTime_to_userTime" executed="True" result="Success" success="True" time="0.041" asserts="4" />
+                              <test-case name="Nop.Services.Tests.Helpers.DateTimeHelperTests.Can_convert_dateTime_to_utc_dateTime" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                              <test-case name="Nop.Services.Tests.Helpers.DateTimeHelperTests.Can_find_systemTimeZone_by_id" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Helpers.DateTimeHelperTests.Can_get_all_systemTimeZones" executed="True" result="Success" success="True" time="0.072" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Helpers.DateTimeHelperTests.Can_get_customer_timeZone_with_customTimeZones_disabled" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Helpers.DateTimeHelperTests.Can_get_customer_timeZone_with_customTimeZones_enabled" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Localization" executed="True" result="Success" success="True" time="0.076" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="LanguageServiceTests" executed="True" result="Success" success="True" time="0.075" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Localization.LanguageServiceTests.Can_get_all_languages" executed="True" result="Success" success="True" time="0.074" asserts="2" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Logging" executed="True" result="Success" success="True" time="0.169" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="CustomerActivityServiceTests" executed="True" result="Success" success="True" time="0.168" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Logging.CustomerActivityServiceTests.Can_Find_Activities" executed="True" result="Success" success="True" time="0.167" asserts="3" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Messages" executed="True" result="Success" success="True" time="0.274" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="NewsLetterSubscriptionServiceTests" executed="True" result="Success" success="True" time="0.231" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Messages.NewsLetterSubscriptionServiceTests.VerifyActiveInsertTriggersSubscribeEvent" executed="True" result="Success" success="True" time="0.217" asserts="0" />
+                              <test-case name="Nop.Services.Tests.Messages.NewsLetterSubscriptionServiceTests.VerifyDeleteTriggersUnsubscribeEvent" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                              <test-case name="Nop.Services.Tests.Messages.NewsLetterSubscriptionServiceTests.VerifyEmailUpdateTriggersUnsubscribeAndSubscribeEvent" executed="False" result="Ignored">
+                                <reason>
+                                  <message><![CDATA[Ignoring until a solution to the IDbContext methods are found. -SRS]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Messages.NewsLetterSubscriptionServiceTests.VerifyInactiveToActiveUpdateTriggersSubscribeEvent" executed="False" result="Ignored">
+                                <reason>
+                                  <message><![CDATA[Ignoring until a solution to the IDbContext methods are found. -SRS]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Messages.NewsLetterSubscriptionServiceTests.VerifyInsertEventIsFired" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                              <test-case name="Nop.Services.Tests.Messages.NewsLetterSubscriptionServiceTests.VerifyUpdateEventIsFired" executed="False" result="Ignored">
+                                <reason>
+                                  <message><![CDATA[Ignoring until a solution to the IDbContext methods are found. -SRS]]></message>
+                                </reason>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="TokenizerTests" executed="True" result="Success" success="True" time="0.041" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Messages.TokenizerTests.Can_html_encode" executed="True" result="Success" success="True" time="0.037" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Messages.TokenizerTests.Can_replace_tokens_case_invariant" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Messages.TokenizerTests.Can_replace_tokens_case_sensitive" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Messages.TokenizerTests.Should_not_html_encode_if_token_doesnt_allow_it" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Orders" executed="True" result="Failure" success="False" time="1.200" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="CheckoutAttributeExtensionsTests" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Orders.CheckoutAttributeExtensionsTests.Can_remove_shippable_attributes" executed="True" result="Success" success="True" time="0.003" asserts="3" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="CheckoutAttributeParserAndFormatterTests" executed="True" result="Success" success="True" time="0.174" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Orders.CheckoutAttributeParserAndFormatterTests.Can_add_and_parse_checkoutAttributes" executed="True" result="Success" success="True" time="0.161" asserts="8" />
+                              <test-case name="Nop.Services.Tests.Orders.CheckoutAttributeParserAndFormatterTests.Can_add_render_attributes_withoutPrices" executed="True" result="Success" success="True" time="0.011" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="OrderProcessingServiceTests" executed="True" result="Success" success="True" time="0.835" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_can_only_be_cancelled_when_orderStatus_is_not_cancelled_yet" executed="True" result="Success" success="True" time="0.740" asserts="120" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_can_only_be_captured_when_orderStatus_is_not_cancelled_or_pending_and_paymentstatus_is_authorized_and_paymentModule_supports_capture" executed="True" result="Success" success="True" time="0.014" asserts="240" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_can_only_be_marked_as_authorized_when_orderStatus_is_not_cancelled_and_paymentStatus_is_pending" executed="True" result="Success" success="True" time="0.003" asserts="120" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_can_only_be_partially_refunded_offline_when_paymentstatus_is_paid_or_partiallyRefunded" executed="True" result="Success" success="True" time="0.004" asserts="120" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_can_only_be_partially_refunded_when_paymentstatus_is_paid_or_partiallyRefunded_and_paymentModule_supports_partialRefund" executed="True" result="Success" success="True" time="0.007" asserts="240" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_can_only_be_refunded_offline_when_paymentstatus_is_paid" executed="True" result="Success" success="True" time="0.003" asserts="120" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_can_only_be_refunded_when_paymentstatus_is_paid_and_paymentModule_supports_refund" executed="True" result="Success" success="True" time="0.007" asserts="240" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_can_only_be_voided_offline_when_paymentstatus_is_authorized" executed="True" result="Success" success="True" time="0.003" asserts="120" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_can_only_be_voided_when_paymentstatus_is_authorized_and_paymentModule_supports_void" executed="True" result="Success" success="True" time="0.006" asserts="240" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_cannot_be_marked_as_paid_when_orderStatus_is_cancelled_or_paymentStatus_is_paid_or_refunded_or_voided" executed="True" result="Success" success="True" time="0.003" asserts="120" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_cannot_be_partially_refunded_offline_when_amountToRefund_is_greater_than_amount_that_can_be_refunded" executed="True" result="Success" success="True" time="0.002" asserts="120" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_cannot_be_partially_refunded_when_amountToRefund_is_greater_than_amount_that_can_be_refunded" executed="True" result="Success" success="True" time="0.003" asserts="120" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_cannot_be_refunded_offline_when_orderTotal_is_zero" executed="True" result="Success" success="True" time="0.002" asserts="120" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_cannot_be_refunded_when_orderTotal_is_zero" executed="True" result="Success" success="True" time="0.003" asserts="120" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_cannot_be_voided_offline_when_orderTotal_is_zero" executed="True" result="Success" success="True" time="0.002" asserts="120" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderProcessingServiceTests.Ensure_order_cannot_be_voided_when_orderTotal_is_zero" executed="True" result="Success" success="True" time="0.003" asserts="120" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="OrderTotalCalculationServiceTests" executed="True" result="Failure" success="False" time="0.181" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_check_minimum_reward_points_to_use_requirement" executed="True" result="Success" success="True" time="0.006" asserts="7" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_convert_amount_to_reward_points" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_convert_reward_points_to_amount" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shipping_total_discount_excluding_tax" executed="True" result="Error" success="False" time="0.014" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Shipping.ShippingService.LoadAllShippingRateComputationMethods(Int32 storeId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 159
+at Nop.Services.Shipping.ShippingService.LoadActiveShippingRateComputationMethods(Int32 storeId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 133
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartShippingTotal(IList`1 cart, Boolean includingTax, Decimal& taxRate, Discount& appliedDiscount) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 588
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shipping_total_discount_excluding_tax() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 818
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shipping_total_discount_including_tax" executed="True" result="Error" success="False" time="0.005" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Shipping.ShippingService.LoadAllShippingRateComputationMethods(Int32 storeId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 159
+at Nop.Services.Shipping.ShippingService.LoadActiveShippingRateComputationMethods(Int32 storeId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 133
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartShippingTotal(IList`1 cart, Boolean includingTax, Decimal& taxRate, Discount& appliedDiscount) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 588
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shipping_total_discount_including_tax() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 899
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shipping_total_with_fixed_shipping_rate_excluding_tax" executed="True" result="Error" success="False" time="0.004" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Shipping.ShippingService.LoadAllShippingRateComputationMethods(Int32 storeId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 159
+at Nop.Services.Shipping.ShippingService.LoadActiveShippingRateComputationMethods(Int32 storeId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 133
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartShippingTotal(IList`1 cart, Boolean includingTax, Decimal& taxRate, Discount& appliedDiscount) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 588
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shipping_total_with_fixed_shipping_rate_excluding_tax() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 671
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shipping_total_with_fixed_shipping_rate_including_tax" executed="True" result="Error" success="False" time="0.004" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Shipping.ShippingService.LoadAllShippingRateComputationMethods(Int32 storeId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 159
+at Nop.Services.Shipping.ShippingService.LoadActiveShippingRateComputationMethods(Int32 storeId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 133
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartShippingTotal(IList`1 cart, Boolean includingTax, Decimal& taxRate, Discount& appliedDiscount) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 588
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shipping_total_with_fixed_shipping_rate_including_tax() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 738
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_subTotal_discount_excluding_tax" executed="True" result="Error" success="False" time="0.021" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tax.TaxService.LoadActiveTaxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 285
+at Nop.Services.Tax.TaxService.GetTaxRate(Product product, Int32 taxCategoryId, Customer customer, Decimal& taxRate, Boolean& isTaxable) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 239
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Int32 taxCategoryId, Decimal price, Boolean includingTax, Customer customer, Boolean priceIncludesTax, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 385
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Decimal price, Boolean includingTax, Customer customer, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 357
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartSubTotal(IList`1 cart, Boolean includingTax, Decimal& discountAmount, Discount& appliedDiscount, Decimal& subTotalWithoutDiscount, Decimal& subTotalWithDiscount, SortedDictionary`2& taxRates) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 274
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_subTotal_discount_excluding_tax() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 342
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_subTotal_discount_including_tax" executed="True" result="Error" success="False" time="0.007" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tax.TaxService.LoadActiveTaxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 285
+at Nop.Services.Tax.TaxService.GetTaxRate(Product product, Int32 taxCategoryId, Customer customer, Decimal& taxRate, Boolean& isTaxable) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 239
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Int32 taxCategoryId, Decimal price, Boolean includingTax, Customer customer, Boolean priceIncludesTax, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 385
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Decimal price, Boolean includingTax, Customer customer, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 357
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartSubTotal(IList`1 cart, Boolean includingTax, Decimal& discountAmount, Discount& appliedDiscount, Decimal& subTotalWithoutDiscount, Decimal& subTotalWithDiscount, SortedDictionary`2& taxRates) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 274
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_subTotal_discount_including_tax() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 414
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_subTotal_excluding_tax" executed="True" result="Error" success="False" time="0.006" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tax.TaxService.LoadActiveTaxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 285
+at Nop.Services.Tax.TaxService.GetTaxRate(Product product, Int32 taxCategoryId, Customer customer, Decimal& taxRate, Boolean& isTaxable) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 239
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Int32 taxCategoryId, Decimal price, Boolean includingTax, Customer customer, Boolean priceIncludesTax, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 385
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Decimal price, Boolean includingTax, Customer customer, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 357
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartSubTotal(IList`1 cart, Boolean includingTax, Decimal& discountAmount, Discount& appliedDiscount, Decimal& subTotalWithoutDiscount, Decimal& subTotalWithDiscount, SortedDictionary`2& taxRates) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 274
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_subTotal_excluding_tax() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 209
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_subTotal_including_tax" executed="True" result="Error" success="False" time="0.005" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tax.TaxService.LoadActiveTaxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 285
+at Nop.Services.Tax.TaxService.GetTaxRate(Product product, Int32 taxCategoryId, Customer customer, Decimal& taxRate, Boolean& isTaxable) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 239
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Int32 taxCategoryId, Decimal price, Boolean includingTax, Customer customer, Boolean priceIncludesTax, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 385
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Decimal price, Boolean includingTax, Customer customer, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 357
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartSubTotal(IList`1 cart, Boolean includingTax, Decimal& discountAmount, Discount& appliedDiscount, Decimal& subTotalWithoutDiscount, Decimal& subTotalWithDiscount, SortedDictionary`2& taxRates) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 274
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_subTotal_including_tax() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 270
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_total_discount" executed="True" result="Error" success="False" time="0.013" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tax.TaxService.LoadActiveTaxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 285
+at Nop.Services.Tax.TaxService.GetTaxRate(Product product, Int32 taxCategoryId, Customer customer, Decimal& taxRate, Boolean& isTaxable) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 239
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Int32 taxCategoryId, Decimal price, Boolean includingTax, Customer customer, Boolean priceIncludesTax, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 385
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Decimal price, Boolean includingTax, Customer customer, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 357
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartSubTotal(IList`1 cart, Boolean includingTax, Decimal& discountAmount, Discount& appliedDiscount, Decimal& subTotalWithoutDiscount, Decimal& subTotalWithDiscount, SortedDictionary`2& taxRates) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 274
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartSubTotal(IList`1 cart, Boolean includingTax, Decimal& discountAmount, Discount& appliedDiscount, Decimal& subTotalWithoutDiscount, Decimal& subTotalWithDiscount) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 233
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartTotal(IList`1 cart, Decimal& discountAmount, Discount& appliedDiscount, List`1& appliedGiftCards, Int32& redeemedRewardPoints, Decimal& redeemedRewardPointsAmount, Boolean ignoreRewardPonts, Boolean usePaymentMethodAdditionalFee) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 845
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_total_discount() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 1345
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_total_with_shipping_required" executed="True" result="Error" success="False" time="0.006" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tax.TaxService.LoadActiveTaxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 285
+at Nop.Services.Tax.TaxService.GetTaxRate(Product product, Int32 taxCategoryId, Customer customer, Decimal& taxRate, Boolean& isTaxable) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 239
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Int32 taxCategoryId, Decimal price, Boolean includingTax, Customer customer, Boolean priceIncludesTax, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 385
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Decimal price, Boolean includingTax, Customer customer, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 357
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartSubTotal(IList`1 cart, Boolean includingTax, Decimal& discountAmount, Discount& appliedDiscount, Decimal& subTotalWithoutDiscount, Decimal& subTotalWithDiscount, SortedDictionary`2& taxRates) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 274
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartSubTotal(IList`1 cart, Boolean includingTax, Decimal& discountAmount, Discount& appliedDiscount, Decimal& subTotalWithoutDiscount, Decimal& subTotalWithDiscount) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 233
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartTotal(IList`1 cart, Decimal& discountAmount, Discount& appliedDiscount, List`1& appliedGiftCards, Int32& redeemedRewardPoints, Decimal& redeemedRewardPointsAmount, Boolean ignoreRewardPonts, Boolean usePaymentMethodAdditionalFee) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 845
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_total_with_shipping_required() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 1161
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_total_without_shipping_required" executed="True" result="Error" success="False" time="0.006" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tax.TaxService.LoadActiveTaxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 285
+at Nop.Services.Tax.TaxService.GetTaxRate(Product product, Int32 taxCategoryId, Customer customer, Decimal& taxRate, Boolean& isTaxable) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 239
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Int32 taxCategoryId, Decimal price, Boolean includingTax, Customer customer, Boolean priceIncludesTax, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 385
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Decimal price, Boolean includingTax, Customer customer, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 357
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartSubTotal(IList`1 cart, Boolean includingTax, Decimal& discountAmount, Discount& appliedDiscount, Decimal& subTotalWithoutDiscount, Decimal& subTotalWithDiscount, SortedDictionary`2& taxRates) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 274
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartSubTotal(IList`1 cart, Boolean includingTax, Decimal& discountAmount, Discount& appliedDiscount, Decimal& subTotalWithoutDiscount, Decimal& subTotalWithDiscount) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 233
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartTotal(IList`1 cart, Decimal& discountAmount, Discount& appliedDiscount, List`1& appliedGiftCards, Int32& redeemedRewardPoints, Decimal& redeemedRewardPointsAmount, Boolean ignoreRewardPonts, Boolean usePaymentMethodAdditionalFee) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 845
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shopping_cart_total_without_shipping_required() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 1084
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_shoppingCartItem_additional_shippingCharge" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_tax_total" executed="True" result="Error" success="False" time="0.011" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tax.TaxService.LoadActiveTaxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 285
+at Nop.Services.Tax.TaxService.GetTaxRate(Product product, Int32 taxCategoryId, Customer customer, Decimal& taxRate, Boolean& isTaxable) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 239
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Int32 taxCategoryId, Decimal price, Boolean includingTax, Customer customer, Boolean priceIncludesTax, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 385
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Decimal price, Boolean includingTax, Customer customer, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 357
+at Nop.Services.Orders.OrderTotalCalculationService.GetShoppingCartSubTotal(IList`1 cart, Boolean includingTax, Decimal& discountAmount, Discount& appliedDiscount, Decimal& subTotalWithoutDiscount, Decimal& subTotalWithDiscount, SortedDictionary`2& taxRates) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 274
+at Nop.Services.Orders.OrderTotalCalculationService.GetTaxTotal(IList`1 cart, SortedDictionary`2& taxRates, Boolean usePaymentMethodAdditionalFee) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Orders\OrderTotalCalculationService.cs:line 696
+at Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Can_get_tax_total() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Orders\OrderTotalCalculationServiceTests.cs:line 976
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Shipping_should_be_free_when_all_shoppingCartItems_are_marked_as_freeShipping" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Shipping_should_be_free_when_customer_is_in_role_with_free_shipping" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Orders.OrderTotalCalculationServiceTests.Shipping_should_not_be_free_when_some_of_shoppingCartItems_are_not_marked_as_freeShipping" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Payments" executed="True" result="Failure" success="False" time="0.224" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="PaymentExtensionTests" executed="True" result="Success" success="True" time="0.206" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Payments.PaymentExtensionTests.Can_deserialize_empty_string" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Payments.PaymentExtensionTests.Can_deserialize_null_string" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Payments.PaymentExtensionTests.Can_serialize_and_deserialize_CustomValues" executed="True" result="Success" success="True" time="0.197" asserts="10" />
+                              <test-case name="Nop.Services.Tests.Payments.PaymentExtensionTests.Can_serialize_and_deserialize_empty_CustomValues" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="PaymentServiceTests" executed="True" result="Failure" success="False" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Payments.PaymentServiceTests.Can_get_masked_credit_card_number" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                              <test-case name="Nop.Services.Tests.Payments.PaymentServiceTests.Can_load_active_paymentMethods" executed="True" result="Error" success="False" time="0.004" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Payments.PaymentService.LoadAllPaymentMethods(Int32 storeId, Int32 filterByCountryId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Payments\PaymentService.cs:line 86
+at Nop.Services.Payments.PaymentService.LoadActivePaymentMethods(Nullable`1 filterByCustomerId, Int32 storeId, Int32 filterByCountryId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Payments\PaymentService.cs:line 59
+at Nop.Services.Tests.Payments.PaymentServiceTests.Can_load_active_paymentMethods() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Payments\PaymentServiceTests.cs:line 54
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Payments.PaymentServiceTests.Can_load_paymentMethod_by_systemKeyword" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Services.Payments.PaymentService.LoadPaymentMethodBySystemName(String systemName) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Payments\PaymentService.cs:line 73
+at Nop.Services.Tests.Payments.PaymentServiceTests.Can_load_paymentMethod_by_systemKeyword() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Payments\PaymentServiceTests.cs:line 47
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Payments.PaymentServiceTests.Can_load_paymentMethods" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Payments.PaymentService.LoadAllPaymentMethods(Int32 storeId, Int32 filterByCountryId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Payments\PaymentService.cs:line 86
+at Nop.Services.Payments.PaymentService.LoadActivePaymentMethods(Nullable`1 filterByCustomerId, Int32 storeId, Int32 filterByCountryId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Payments\PaymentService.cs:line 59
+at Nop.Services.Tests.Payments.PaymentServiceTests.Can_load_paymentMethods() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Payments\PaymentServiceTests.cs:line 39
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Security" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="EncryptionServiceTests" executed="True" result="Success" success="True" time="0.004" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Security.EncryptionServiceTests.Can_encrypt_and_decrypt" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Security.EncryptionServiceTests.Can_hash" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Seo" executed="True" result="Success" success="True" time="0.045" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="SeoExtensionsTests" executed="True" result="Success" success="True" time="0.045" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Seo.SeoExtensionsTests.Can_allow_unicode_chars" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Seo.SeoExtensionsTests.Can_convert_non_western_chars" executed="True" result="Success" success="True" time="0.032" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Seo.SeoExtensionsTests.Should_allow_all_latin_chars" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Seo.SeoExtensionsTests.Should_remove_illegal_chars" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Seo.SeoExtensionsTests.Should_replace_space_with_dash" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Seo.SeoExtensionsTests.Should_return_lowercase" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Shipping" executed="True" result="Failure" success="False" time="0.039" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="CalculateDimensionsTests" executed="True" result="Success" success="True" time="0.021" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Shipping.CalculateDimensionsTests.can_calculate_with_cubic_item_and_multiple_qty" executed="True" result="Success" success="True" time="0.008" asserts="3" />
+                              <test-case name="Nop.Services.Tests.Shipping.CalculateDimensionsTests.can_calculate_with_multiple_items_1" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                              <test-case name="Nop.Services.Tests.Shipping.CalculateDimensionsTests.can_calculate_with_multiple_items_2" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                              <test-case name="Nop.Services.Tests.Shipping.CalculateDimensionsTests.can_calculate_with_single_item_and_qty_1_should_ignore_cubic_method" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                              <test-case name="Nop.Services.Tests.Shipping.CalculateDimensionsTests.can_calculate_with_single_item_and_qty_2" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                              <test-case name="Nop.Services.Tests.Shipping.CalculateDimensionsTests.should_return_zero_with_all_zero_dimensions" executed="True" result="Success" success="True" time="0.002" asserts="6" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="ShippingServiceTests" executed="True" result="Failure" success="False" time="0.016" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Shipping.ShippingServiceTests.Can_get_shoppingCart_totalWeight_without_attributes" executed="True" result="Success" success="True" time="0.005" asserts="1" />
+                              <test-case name="Nop.Services.Tests.Shipping.ShippingServiceTests.Can_load_active_shippingRateComputationMethods" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Shipping.ShippingService.LoadAllShippingRateComputationMethods(Int32 storeId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 159
+at Nop.Services.Shipping.ShippingService.LoadActiveShippingRateComputationMethods(Int32 storeId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 133
+at Nop.Services.Tests.Shipping.ShippingServiceTests.Can_load_active_shippingRateComputationMethods() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Shipping\ShippingServiceTests.cs:line 110
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Shipping.ShippingServiceTests.Can_load_shippingRateComputationMethod_by_systemKeyword" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Services.Shipping.ShippingService.LoadShippingRateComputationMethodBySystemName(String systemName) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 147
+at Nop.Services.Tests.Shipping.ShippingServiceTests.Can_load_shippingRateComputationMethod_by_systemKeyword() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Shipping\ShippingServiceTests.cs:line 103
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Shipping.ShippingServiceTests.Can_load_shippingRateComputationMethods" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Shipping.ShippingService.LoadAllShippingRateComputationMethods(Int32 storeId) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Shipping\ShippingService.cs:line 159
+at Nop.Services.Tests.Shipping.ShippingServiceTests.Can_load_shippingRateComputationMethods() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Shipping\ShippingServiceTests.cs:line 95
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Tax" executed="True" result="Failure" success="False" time="2.453" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="TaxServiceTests" executed="True" result="Failure" success="False" time="2.452" asserts="0">
+                            <results>
+                              <test-case name="Nop.Services.Tests.Tax.TaxServiceTests.Can_check_taxExempt_customer" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Tax.TaxServiceTests.Can_check_taxExempt_customer_in_taxExemptCustomerRole" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+                              <test-case name="Nop.Services.Tests.Tax.TaxServiceTests.Can_check_taxExempt_product" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                              <test-case name="Nop.Services.Tests.Tax.TaxServiceTests.Can_do_VAT_check" executed="True" result="Success" success="True" time="2.419" asserts="4" />
+                              <test-case name="Nop.Services.Tests.Tax.TaxServiceTests.Can_get_productPrice_priceIncludesTax_includingTax_non_taxable" executed="True" result="Error" success="False" time="0.003" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tax.TaxService.LoadActiveTaxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 285
+at Nop.Services.Tax.TaxService.GetTaxRate(Product product, Int32 taxCategoryId, Customer customer, Decimal& taxRate, Boolean& isTaxable) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 239
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Int32 taxCategoryId, Decimal price, Boolean includingTax, Customer customer, Boolean priceIncludesTax, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 385
+at Nop.Services.Tests.Tax.TaxServiceTests.Can_get_productPrice_priceIncludesTax_includingTax_non_taxable() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Tax\TaxServiceTests.cs:line 151
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Tax.TaxServiceTests.Can_get_productPrice_priceIncludesTax_includingTax_taxable" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tax.TaxService.LoadActiveTaxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 285
+at Nop.Services.Tax.TaxService.GetTaxRate(Product product, Int32 taxCategoryId, Customer customer, Decimal& taxRate, Boolean& isTaxable) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 239
+at Nop.Services.Tax.TaxService.GetProductPrice(Product product, Int32 taxCategoryId, Decimal price, Boolean includingTax, Customer customer, Boolean priceIncludesTax, Decimal& taxRate) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 385
+at Nop.Services.Tests.Tax.TaxServiceTests.Can_get_productPrice_priceIncludesTax_includingTax_taxable() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Tax\TaxServiceTests.cs:line 135
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Tax.TaxServiceTests.Can_load_active_taxProvider" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tax.TaxService.LoadActiveTaxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 285
+at Nop.Services.Tests.Tax.TaxServiceTests.Can_load_active_taxProvider() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Tax\TaxServiceTests.cs:line 76
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Tax.TaxServiceTests.Can_load_taxProvider_by_systemKeyword" executed="True" result="Error" success="False" time="0.001" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Services.Tax.TaxService.LoadTaxProviderBySystemName(String systemName) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 298
+at Nop.Services.Tests.Tax.TaxServiceTests.Can_load_taxProvider_by_systemKeyword() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Tax\TaxServiceTests.cs:line 69
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Tax.TaxServiceTests.Can_load_taxProviders" executed="True" result="Error" success="False" time="0.002" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.NullReferenceException : Object reference not set to an instance of an object.]]></message>
+                                  <stack-trace><![CDATA[at Nop.Core.Plugins.PluginDescriptor.Instance[T]() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginDescriptor.cs:line 94
+at Nop.Core.Plugins.PluginFinder.<>c__7`1.<GetPlugins>b__7_0(PluginDescriptor p) in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Core\Plugins\PluginFinder.cs:line 123
+at System.Linq.Enumerable.WhereSelectListIterator`2.MoveNext()
+at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+at Nop.Services.Tax.TaxService.LoadAllTaxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Libraries\Nop.Services\Tax\TaxService.cs:line 309
+at Nop.Services.Tests.Tax.TaxServiceTests.Can_load_taxProviders() in C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Services.Tests\Tax\TaxServiceTests.cs:line 61
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="Nop.Services.Tests.Tax.TaxServiceTests.Should_assume_valid_VAT_number_if_EuVatAssumeValid_setting_is_true" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

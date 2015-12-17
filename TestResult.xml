@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll" total="148" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-12-17" time="10:15:16">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\yowko151215\Source\Repos\jenkins-labs-1" machine-name="YOWKO151215" user="yowko151215" user-domain="YOWKO151215" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Web.MVC.Tests\bin\Debug\Nop.Web.MVC.Tests.dll" executed="True" result="Success" success="True" time="6.128" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Nop" executed="True" result="Success" success="True" time="6.114" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Web" executed="True" result="Success" success="True" time="6.114" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="MVC" executed="True" result="Success" success="True" time="6.113" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="6.113" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Admin" executed="True" result="Success" success="True" time="2.538" asserts="0">
+                        <results>
+                          <test-suite type="Namespace" name="Controllers" executed="True" result="Inconclusive" success="False" time="0.011" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="CategoryControllerTests" executed="True" result="Inconclusive" success="False" time="0.008" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Infrastructure" executed="True" result="Success" success="True" time="2.519" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="AutoMapperConfigurationTest" executed="True" result="Success" success="True" time="2.518" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Web.MVC.Tests.Admin.Infrastructure.AutoMapperConfigurationTest.Configuration_is_valid" executed="True" result="Success" success="True" time="2.513" asserts="0" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Events" executed="True" result="Success" success="True" time="1.536" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="EventsTests" executed="True" result="Success" success="True" time="1.535" asserts="0">
+                            <results>
+                              <test-case name="Nop.Web.MVC.Tests.Events.EventsTests.Can_find_consumers" executed="True" result="Success" success="True" time="0.029" asserts="2" />
+                              <test-case name="Nop.Web.MVC.Tests.Events.EventsTests.Can_publish_event" executed="True" result="Success" success="True" time="0.007" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Framework" executed="True" result="Success" success="True" time="0.456" asserts="0">
+                        <results>
+                          <test-suite type="Namespace" name="Controllers" executed="True" result="Success" success="True" time="0.455" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="AdminAuthorizeAttributeTests" executed="True" result="Success" success="True" time="0.455" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Web.MVC.Tests.Framework.Controllers.AdminAuthorizeAttributeTests.Inherited_attribute_request_should_require_permission" executed="True" result="Success" success="True" time="0.446" asserts="2" />
+                                  <test-case name="Nop.Web.MVC.Tests.Framework.Controllers.AdminAuthorizeAttributeTests.Normal_request_should_not_be_affected" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                                  <test-case name="Nop.Web.MVC.Tests.Framework.Controllers.AdminAuthorizeAttributeTests.Normal_with_action_attribute_request_should_require_permission" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                                  <test-case name="Nop.Web.MVC.Tests.Framework.Controllers.AdminAuthorizeAttributeTests.Normal_with_attribute_request_should_require_permission" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Public" executed="True" result="Success" success="True" time="1.566" asserts="0">
+                        <results>
+                          <test-suite type="Namespace" name="Infrastructure" executed="True" result="Success" success="True" time="0.310" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="RoutesTests" executed="True" result="Success" success="True" time="0.309" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.Blog_routes" executed="True" result="Success" success="True" time="0.186" asserts="4" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.Boards_routes" executed="True" result="Success" success="True" time="0.017" asserts="35" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.Cart_routes" executed="True" result="Success" success="True" time="0.014" asserts="5" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.Catalog_routes" executed="True" result="Success" success="True" time="0.012" asserts="26" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.Checkout_routes" executed="True" result="Success" success="True" time="0.007" asserts="11" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.Common_routes" executed="True" result="Success" success="True" time="0.006" asserts="5" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.Customer_routes" executed="True" result="Success" success="True" time="0.015" asserts="30" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.Default_route" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.News_routes" executed="True" result="Success" success="True" time="0.003" asserts="4" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.Newsletter_routes" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.Order_routes" executed="True" result="Success" success="True" time="0.008" asserts="8" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.PrivateMessages_routes" executed="True" result="Success" success="True" time="0.009" asserts="18" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.Profile_routes" executed="True" result="Success" success="True" time="0.004" asserts="6" />
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Infrastructure.RoutesTests.ReturnRequest_routes" executed="True" result="Success" success="True" time="0.005" asserts="2" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Models" executed="True" result="Success" success="True" time="0.025" asserts="0">
+                            <results>
+                              <test-suite type="Namespace" name="News" executed="True" result="Success" success="True" time="0.014" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="HomePageNewsItemsModelTests" executed="True" result="Success" success="True" time="0.013" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Models.News.HomePageNewsItemsModelTests.Can_clone" executed="True" result="Success" success="True" time="0.012" asserts="25" />
+                                    </results>
+                                  </test-suite>
+                                </results>
+                              </test-suite>
+                              <test-suite type="Namespace" name="Polls" executed="True" result="Success" success="True" time="0.008" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="PollModelTests" executed="True" result="Success" success="True" time="0.007" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Models.Polls.PollModelTests.Can_clone" executed="True" result="Success" success="True" time="0.006" asserts="10" />
+                                    </results>
+                                  </test-suite>
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Validators" executed="True" result="Success" success="True" time="1.221" asserts="0">
+                            <results>
+                              <test-suite type="Namespace" name="Blogs" executed="True" result="Inconclusive" success="False" time="0.001" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="BlogPostValidatorTests" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+                                </results>
+                              </test-suite>
+                              <test-suite type="Namespace" name="Boards" executed="True" result="Success" success="True" time="0.193" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="EditForumPostValidatorTests" executed="True" result="Success" success="True" time="0.169" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Boards.EditForumPostValidatorTests.Should_have_error_when_text_is_null_or_empty" executed="True" result="Success" success="True" time="0.160" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Boards.EditForumPostValidatorTests.Should_not_have_error_when_text_is_specified" executed="True" result="Success" success="True" time="0.007" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="TestFixture" name="EditForumTopicValidatorTests" executed="True" result="Success" success="True" time="0.021" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Boards.EditForumTopicValidatorTests.Should_have_error_when_subject_is_null_or_empty" executed="True" result="Success" success="True" time="0.007" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Boards.EditForumTopicValidatorTests.Should_have_error_when_text_is_null_or_empty" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Boards.EditForumTopicValidatorTests.Should_not_have_error_when_subject_is_specified" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Boards.EditForumTopicValidatorTests.Should_not_have_error_when_text_is_specified" executed="True" result="Success" success="True" time="0.002" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                </results>
+                              </test-suite>
+                              <test-suite type="Namespace" name="Catalog" executed="True" result="Success" success="True" time="0.051" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="ProductEmailAFriendValidatorTests" executed="True" result="Success" success="True" time="0.048" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Catalog.ProductEmailAFriendValidatorTests.Should_have_error_when_friendEmail_is_null_or_empty" executed="True" result="Success" success="True" time="0.019" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Catalog.ProductEmailAFriendValidatorTests.Should_have_error_when_friendEmail_is_wrong_format" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Catalog.ProductEmailAFriendValidatorTests.Should_have_error_when_yourEmailAddress_is_null_or_empty" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Catalog.ProductEmailAFriendValidatorTests.Should_have_error_when_yourEmailAddress_is_wrong_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Catalog.ProductEmailAFriendValidatorTests.Should_not_have_error_when_friendEmail_is_correct_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Catalog.ProductEmailAFriendValidatorTests.Should_not_have_error_when_yourEmailAddress_is_correct_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="TestFixture" name="ProductReviewsValidatorTests" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+                                </results>
+                              </test-suite>
+                              <test-suite type="Namespace" name="Common" executed="True" result="Success" success="True" time="0.288" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="AddressValidatorTests" executed="True" result="Success" success="True" time="0.192" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_have_error_when_city_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.050" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_have_error_when_company_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_have_error_when_email_is_null_or_empty" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_have_error_when_email_is_wrong_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_have_error_when_fax_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.013" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_have_error_when_firstName_is_null_or_empty" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_have_error_when_lastName_is_null_or_empty" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_have_error_when_phone_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_have_error_when_streetaddress_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_have_error_when_streetaddress2_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_have_error_when_zippostalcode_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_not_have_error_when_city_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_not_have_error_when_company_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_not_have_error_when_email_is_correct_format" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_not_have_error_when_fax_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_not_have_error_when_firstName_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_not_have_error_when_lastName_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_not_have_error_when_phone_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_not_have_error_when_streetaddress_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_not_have_error_when_streetaddress2_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.AddressValidatorTests.Should_not_have_error_when_zippostalcode_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="TestFixture" name="ContactUsValidatorTests" executed="True" result="Success" success="True" time="0.045" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactUsValidatorTests.Should_have_error_when_email_is_null_or_empty" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactUsValidatorTests.Should_have_error_when_email_is_wrong_format" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactUsValidatorTests.Should_have_error_when_enquiry_is_null_or_empty" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactUsValidatorTests.Should_have_error_when_fullName_is_null_or_empty" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactUsValidatorTests.Should_not_have_error_when_email_is_correct_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactUsValidatorTests.Should_not_have_error_when_enquiry_is_specified" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactUsValidatorTests.Should_not_have_error_when_fullName_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="TestFixture" name="ContactVendorValidatorTests" executed="True" result="Success" success="True" time="0.045" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactVendorValidatorTests.Should_have_error_when_email_is_null_or_empty" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactVendorValidatorTests.Should_have_error_when_email_is_wrong_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactVendorValidatorTests.Should_have_error_when_enquiry_is_null_or_empty" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactVendorValidatorTests.Should_have_error_when_fullName_is_null_or_empty" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactVendorValidatorTests.Should_not_have_error_when_email_is_correct_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactVendorValidatorTests.Should_not_have_error_when_enquiry_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Common.ContactVendorValidatorTests.Should_not_have_error_when_fullName_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                </results>
+                              </test-suite>
+                              <test-suite type="TestFixture" name="CreditCardValidatorTests" executed="True" result="Success" success="True" time="0.015" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Web.MVC.Tests.Public.Validators.CreditCardValidatorTests.IsValidTests" executed="True" result="Success" success="True" time="0.014" asserts="7" />
+                                </results>
+                              </test-suite>
+                              <test-suite type="Namespace" name="Customer" executed="True" result="Success" success="True" time="0.474" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="ChangePasswordValidatorTests" executed="True" result="Success" success="True" time="0.074" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.ChangePasswordValidatorTests.Should_have_error_when_confirmNewPassword_is_null_or_empty" executed="True" result="Success" success="True" time="0.020" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.ChangePasswordValidatorTests.Should_have_error_when_newPassword_doesnot_equal_confirmationPassword" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.ChangePasswordValidatorTests.Should_have_error_when_newPassword_is_null_or_empty" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.ChangePasswordValidatorTests.Should_have_error_when_oldPassword_is_null_or_empty" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.ChangePasswordValidatorTests.Should_not_have_error_when_confirmNewPassword_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.ChangePasswordValidatorTests.Should_not_have_error_when_newPassword_equals_confirmationPassword" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.ChangePasswordValidatorTests.Should_not_have_error_when_newPassword_is_specified" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.ChangePasswordValidatorTests.Should_not_have_error_when_oldPassword_is_specified" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.ChangePasswordValidatorTests.Should_validate_newPassword_is_length" executed="True" result="Success" success="True" time="0.008" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="TestFixture" name="CustomerInfoValidatorTests" executed="True" result="Success" success="True" time="0.173" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_have_error_when_city_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.024" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_have_error_when_company_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.011" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_have_error_when_email_is_null_or_empty" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_have_error_when_email_is_wrong_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_have_error_when_fax_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_have_error_when_firstName_is_null_or_empty" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_have_error_when_lastName_is_null_or_empty" executed="True" result="Success" success="True" time="0.009" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_have_error_when_phone_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_have_error_when_streetaddress_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_have_error_when_streetaddress2_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.012" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_have_error_when_zippostalcode_is_null_or_empty_based_on_required_setting" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_not_have_error_when_city_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_not_have_error_when_company_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_not_have_error_when_email_is_correct_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_not_have_error_when_fax_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_not_have_error_when_firstName_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_not_have_error_when_lastName_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_not_have_error_when_phone_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_not_have_error_when_streetaddress_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_not_have_error_when_streetaddress2_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.CustomerInfoValidatorTests.Should_not_have_error_when_zippostalcode_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="TestFixture" name="LoginValidatorTests" executed="True" result="Success" success="True" time="0.025" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.LoginValidatorTests.Should_have_error_when_email_is_null_or_empty" executed="True" result="Success" success="True" time="0.007" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.LoginValidatorTests.Should_have_error_when_email_is_wrong_format" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.LoginValidatorTests.Should_not_have_error_when_email_is_correct_format" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.LoginValidatorTests.Should_not_have_error_when_email_is_null_but_usernames_are_enabled" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="TestFixture" name="PasswordRecoveryConfirmValidatorTests" executed="True" result="Success" success="True" time="0.050" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.PasswordRecoveryConfirmValidatorTests.Should_have_error_when_confirmNewPassword_is_null_or_empty" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.PasswordRecoveryConfirmValidatorTests.Should_have_error_when_newPassword_doesnot_equal_confirmationPassword" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.PasswordRecoveryConfirmValidatorTests.Should_have_error_when_newPassword_is_null_or_empty" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.PasswordRecoveryConfirmValidatorTests.Should_not_have_error_when_confirmNewPassword_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.PasswordRecoveryConfirmValidatorTests.Should_not_have_error_when_newPassword_equals_confirmationPassword" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.PasswordRecoveryConfirmValidatorTests.Should_not_have_error_when_newPassword_is_specified" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.PasswordRecoveryConfirmValidatorTests.Should_validate_newPassword_is_length" executed="True" result="Success" success="True" time="0.007" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="TestFixture" name="PasswordRecoveryValidatorTests" executed="True" result="Success" success="True" time="0.019" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.PasswordRecoveryValidatorTests.Should_have_error_when_email_is_null_or_empty" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.PasswordRecoveryValidatorTests.Should_have_error_when_email_is_wrong_format" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.PasswordRecoveryValidatorTests.Should_not_have_error_when_email_is_correct_format" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                  <test-suite type="TestFixture" name="RegisterValidatorTests" executed="True" result="Success" success="True" time="0.121" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_have_error_when_confirmPassword_is_null_or_empty" executed="True" result="Success" success="True" time="0.021" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_have_error_when_email_is_null_or_empty" executed="True" result="Success" success="True" time="0.008" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_have_error_when_email_is_wrong_format" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_have_error_when_firstName_is_null_or_empty" executed="True" result="Success" success="True" time="0.007" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_have_error_when_lastName_is_null_or_empty" executed="True" result="Success" success="True" time="0.007" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_have_error_when_password_doesnot_equal_confirmationPassword" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_have_error_when_password_is_null_or_empty" executed="True" result="Success" success="True" time="0.007" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_not_have_error_when_confirmPassword_is_specified" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_not_have_error_when_email_is_correct_format" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_not_have_error_when_firstName_is_specified" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_not_have_error_when_lastName_is_specified" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_not_have_error_when_password_equals_confirmationPassword" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_not_have_error_when_password_is_specified" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Customer.RegisterValidatorTests.Should_validate_password_is_length" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                </results>
+                              </test-suite>
+                              <test-suite type="Namespace" name="Install" executed="True" result="Success" success="True" time="0.105" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="InstallValidatorTests" executed="True" result="Success" success="True" time="0.104" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Install.InstallValidatorTests.Should_have_error_when_adminEmail_is_null_or_empty" executed="True" result="Success" success="True" time="0.052" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Install.InstallValidatorTests.Should_have_error_when_adminEmail_is_wrong_format" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Install.InstallValidatorTests.Should_have_error_when_confirmPassword_is_null_or_empty" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Install.InstallValidatorTests.Should_have_error_when_password_doesnot_equal_confirmationPassword" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Install.InstallValidatorTests.Should_have_error_when_password_is_null_or_empty" executed="True" result="Success" success="True" time="0.007" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Install.InstallValidatorTests.Should_not_have_error_when_adminEmail_is_correct_format" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Install.InstallValidatorTests.Should_not_have_error_when_confirmPassword_is_specified" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Install.InstallValidatorTests.Should_not_have_error_when_password_equals_confirmationPassword" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.Install.InstallValidatorTests.Should_not_have_error_when_password_is_specified" executed="True" result="Success" success="True" time="0.005" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                </results>
+                              </test-suite>
+                              <test-suite type="Namespace" name="PrivateMessages" executed="True" result="Success" success="True" time="0.023" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="SendPrivateMessageValidatorTests" executed="True" result="Success" success="True" time="0.023" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.PrivateMessages.SendPrivateMessageValidatorTests.Should_have_error_when_message_is_null_or_empty" executed="True" result="Success" success="True" time="0.007" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.PrivateMessages.SendPrivateMessageValidatorTests.Should_have_error_when_subject_is_null_or_empty" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.PrivateMessages.SendPrivateMessageValidatorTests.Should_not_have_error_when_message_is_specified" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.PrivateMessages.SendPrivateMessageValidatorTests.Should_not_have_error_when_subject_is_specified" executed="True" result="Success" success="True" time="0.003" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                </results>
+                              </test-suite>
+                              <test-suite type="Namespace" name="ShoppingCart" executed="True" result="Success" success="True" time="0.040" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="WishlistEmailAFriendValidatorTests" executed="True" result="Success" success="True" time="0.039" asserts="0">
+                                    <results>
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.ShoppingCart.WishlistEmailAFriendValidatorTests.Should_have_error_when_friendEmail_is_null_or_empty" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.ShoppingCart.WishlistEmailAFriendValidatorTests.Should_have_error_when_friendEmail_is_wrong_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.ShoppingCart.WishlistEmailAFriendValidatorTests.Should_have_error_when_yourEmailAddress_is_null_or_empty" executed="True" result="Success" success="True" time="0.006" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.ShoppingCart.WishlistEmailAFriendValidatorTests.Should_have_error_when_yourEmailAddress_is_wrong_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.ShoppingCart.WishlistEmailAFriendValidatorTests.Should_not_have_error_when_friendEmail_is_correct_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                      <test-case name="Nop.Web.MVC.Tests.Public.Validators.ShoppingCart.WishlistEmailAFriendValidatorTests.Should_not_have_error_when_yourEmailAddress_is_correct_format" executed="True" result="Success" success="True" time="0.004" asserts="0" />
+                                    </results>
+                                  </test-suite>
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

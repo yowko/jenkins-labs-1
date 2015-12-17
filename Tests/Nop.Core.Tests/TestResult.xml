@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Core.Tests\Nop.Core.Tests.csproj" total="81" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-12-17" time="09:35:05">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.8009" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Core.Tests" machine-name="YOWKO151215" user="yowko151215" user-domain="YOWKO151215" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Project" name="C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Core.Tests\Nop.Core.Tests.csproj" executed="True" result="Success" success="True" time="1.212" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Users\yowko151215\Source\Repos\jenkins-labs-1\Tests\Nop.Core.Tests\bin\Debug\Nop.Core.Tests.dll" executed="True" result="Success" success="True" time="1.203" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Nop" executed="True" result="Success" success="True" time="1.203" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Core" executed="True" result="Success" success="True" time="1.203" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="1.202" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="Caching" executed="True" result="Success" success="True" time="0.109" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="MemoryCacheManagerTests" executed="True" result="Success" success="True" time="0.108" asserts="0">
+                            <results>
+                              <test-case name="Nop.Core.Tests.Caching.MemoryCacheManagerTests.Can_clear_cache" executed="True" result="Success" success="True" time="0.089" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Caching.MemoryCacheManagerTests.Can_set_and_get_object_from_cache" executed="True" result="Success" success="True" time="0.006" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Caching.MemoryCacheManagerTests.Can_validate_whetherobject_is_cached" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CommonHelperEmailValidatorTests" executed="True" result="Success" success="True" time="0.101" asserts="0">
+                        <results>
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.This_should_not_hang" executed="True" result="Success" success="True" time="0.090" asserts="1" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_email_address_contains_upper_cases_then_the_validator_should_pass" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_the_text_is_a_valid_email_address_including_plus_validator_should_pass" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_the_text_is_a_valid_email_address_then_the_validator_should_pass" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_the_text_is_empty_then_the_validator_should_fail" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_the_text_is_not_a_valid_email_address_then_the_validator_should_fail" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Nop.Core.Tests.CommonHelperEmailValidatorTests.When_the_text_is_null_then_the_validator_should_fail" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="CommonHelperTests" executed="True" result="Success" success="True" time="0.027" asserts="0">
+                        <results>
+                          <test-case name="Nop.Core.Tests.CommonHelperTests.Can_get_typed_value" executed="True" result="Success" success="True" time="0.025" asserts="2" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="ComponentModel" executed="True" result="Success" success="True" time="0.043" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="GenericListTypeConverter" executed="True" result="Success" success="True" time="0.042" asserts="0">
+                            <results>
+                              <test-case name="Nop.Core.Tests.ComponentModel.GenericListTypeConverter.Can_convert_int_list_to_string" executed="True" result="Success" success="True" time="0.015" asserts="2" />
+                              <test-case name="Nop.Core.Tests.ComponentModel.GenericListTypeConverter.Can_convert_string_list_to_string" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                              <test-case name="Nop.Core.Tests.ComponentModel.GenericListTypeConverter.Can_get_int_list_from_string" executed="True" result="Success" success="True" time="0.014" asserts="2" />
+                              <test-case name="Nop.Core.Tests.ComponentModel.GenericListTypeConverter.Can_get_int_list_type_converter" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Nop.Core.Tests.ComponentModel.GenericListTypeConverter.Can_get_string_list_from_string" executed="True" result="Success" success="True" time="0.002" asserts="2" />
+                              <test-case name="Nop.Core.Tests.ComponentModel.GenericListTypeConverter.Can_get_string_list_type_converter" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Domain" executed="True" result="Success" success="True" time="0.500" asserts="0">
+                        <results>
+                          <test-suite type="Namespace" name="Blogs" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="BlogPostTests" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Core.Tests.Domain.Blogs.BlogPostTests.Can_parse_tags" executed="True" result="Success" success="True" time="0.002" asserts="4" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Catalog" executed="True" result="Success" success="True" time="0.016" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="ProductExtensionTests" executed="True" result="Success" success="True" time="0.015" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Core.Tests.Domain.Catalog.ProductExtensionTests.Can_parse_required_product_ids" executed="True" result="Success" success="True" time="0.003" asserts="4" />
+                                  <test-case name="Nop.Core.Tests.Domain.Catalog.ProductExtensionTests.Should_be_available_when_enddate_is_greater_than_somedate" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                                  <test-case name="Nop.Core.Tests.Domain.Catalog.ProductExtensionTests.Should_be_available_when_enddate_is_not_set" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                                  <test-case name="Nop.Core.Tests.Domain.Catalog.ProductExtensionTests.Should_be_available_when_startdate_is_less_than_somedate" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                                  <test-case name="Nop.Core.Tests.Domain.Catalog.ProductExtensionTests.Should_be_available_when_startdate_is_not_set" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                                  <test-case name="Nop.Core.Tests.Domain.Catalog.ProductExtensionTests.Should_not_be_available_when_enddate_is_less_than_somedate" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                                  <test-case name="Nop.Core.Tests.Domain.Catalog.ProductExtensionTests.Should_not_be_available_when_startdate_is_greater_than_somedate" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Common" executed="True" result="Success" success="True" time="0.007" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="AddressTests" executed="True" result="Success" success="True" time="0.007" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Core.Tests.Domain.Common.AddressTests.Can_clone_address" executed="True" result="Success" success="True" time="0.006" asserts="19" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Configuration" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="SettingTestFixture" executed="True" result="Success" success="True" time="0.002" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Core.Tests.Domain.Configuration.SettingTestFixture.Can_create_setting" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Customers" executed="True" result="Success" success="True" time="0.026" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="CustomerTests" executed="True" result="Success" success="True" time="0.025" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Core.Tests.Domain.Customers.CustomerTests.Can_add_address" executed="True" result="Success" success="True" time="0.003" asserts="2" />
+                                  <test-case name="Nop.Core.Tests.Domain.Customers.CustomerTests.Can_add_rewardPointsHistoryEntry" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                  <test-case name="Nop.Core.Tests.Domain.Customers.CustomerTests.Can_check_IsInCustomerRole" executed="True" result="Success" success="True" time="0.004" asserts="6" />
+                                  <test-case name="Nop.Core.Tests.Domain.Customers.CustomerTests.Can_check_whether_customer_is_admin" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                                  <test-case name="Nop.Core.Tests.Domain.Customers.CustomerTests.Can_check_whether_customer_is_forum_moderator" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                                  <test-case name="Nop.Core.Tests.Domain.Customers.CustomerTests.Can_check_whether_customer_is_guest" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                                  <test-case name="Nop.Core.Tests.Domain.Customers.CustomerTests.Can_check_whether_customer_is_registered" executed="True" result="Success" success="True" time="0.001" asserts="2" />
+                                  <test-case name="Nop.Core.Tests.Domain.Customers.CustomerTests.Can_get_rewardPointsHistoryBalance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                  <test-case name="Nop.Core.Tests.Domain.Customers.CustomerTests.Can_remove_address_assigned_as_billing_address" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                                  <test-case name="Nop.Core.Tests.Domain.Customers.CustomerTests.New_customer_has_clear_password_type" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="EntityEqualityTests" executed="True" result="Success" success="True" time="0.009" asserts="0">
+                            <results>
+                              <test-case name="Nop.Core.Tests.Domain.EntityEqualityTests.Entities_with_different_id_should_not_be_equal" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Domain.EntityEqualityTests.Entities_with_same_id_but_different_type_should_not_be_equal" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Domain.EntityEqualityTests.Entity_should_not_equal_transient_entity" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Domain.EntityEqualityTests.Equality_works_using_operators" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="Nop.Core.Tests.Domain.EntityEqualityTests.Two_references_to_same_transient_entity_should_be_equal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Domain.EntityEqualityTests.Two_references_with_the_same_id_should_be_equal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Domain.EntityEqualityTests.Two_transient_entities_should_not_be_equal" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Orders" executed="True" result="Success" success="True" time="0.023" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="GiftCardTests" executed="True" result="Success" success="True" time="0.009" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Core.Tests.Domain.Orders.GiftCardTests.Can_calculate_giftCard_remainingAmount" executed="True" result="Success" success="True" time="0.004" asserts="1" />
+                                  <test-case name="Nop.Core.Tests.Domain.Orders.GiftCardTests.Can_validate_giftCard" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                                </results>
+                              </test-suite>
+                              <test-suite type="TestFixture" name="RecurringPaymentTests" executed="True" result="Success" success="True" time="0.012" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Core.Tests.Domain.Orders.RecurringPaymentTests.Can_calculate_nextPaymentDate_with_days_as_cycle_period" executed="True" result="Success" success="True" time="0.004" asserts="4" />
+                                  <test-case name="Nop.Core.Tests.Domain.Orders.RecurringPaymentTests.Can_calculate_nextPaymentDate_with_months_as_cycle_period" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                                  <test-case name="Nop.Core.Tests.Domain.Orders.RecurringPaymentTests.Can_calculate_nextPaymentDate_with_weeks_as_cycle_period" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                                  <test-case name="Nop.Core.Tests.Domain.Orders.RecurringPaymentTests.Can_calculate_nextPaymentDate_with_years_as_cycle_period" executed="True" result="Success" success="True" time="0.001" asserts="4" />
+                                  <test-case name="Nop.Core.Tests.Domain.Orders.RecurringPaymentTests.Can_calculate_number_of_remaining_cycle" executed="True" result="Success" success="True" time="0.001" asserts="5" />
+                                  <test-case name="Nop.Core.Tests.Domain.Orders.RecurringPaymentTests.Next_payment_date_is_null_when_recurring_payment_is_not_active" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Shipping" executed="True" result="Success" success="True" time="0.381" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="ShippingOptionListTypeConverterTests" executed="True" result="Success" success="True" time="0.357" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Core.Tests.Domain.Shipping.ShippingOptionListTypeConverterTests.Can_convert_shippingOptionList_to_string_and_back" executed="True" result="Success" success="True" time="0.354" asserts="10" />
+                                  <test-case name="Nop.Core.Tests.Domain.Shipping.ShippingOptionListTypeConverterTests.Can_get_type_converter" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                                </results>
+                              </test-suite>
+                              <test-suite type="TestFixture" name="ShippingOptionTypeConverterTests" executed="True" result="Success" success="True" time="0.022" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Core.Tests.Domain.Shipping.ShippingOptionTypeConverterTests.Can_convert_shippingOption_to_string_and_back" executed="True" result="Success" success="True" time="0.019" asserts="5" />
+                                  <test-case name="Nop.Core.Tests.Domain.Shipping.ShippingOptionTypeConverterTests.Can_get_type_converter" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Stores" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="StoreExtensionsTests" executed="True" result="Success" success="True" time="0.005" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Core.Tests.Domain.Stores.StoreExtensionsTests.Can_find_host_value" executed="True" result="Success" success="True" time="0.003" asserts="6" />
+                                  <test-case name="Nop.Core.Tests.Domain.Stores.StoreExtensionsTests.Can_parse_host_values" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="ExtensionsTests" executed="True" result="Success" success="True" time="0.003" asserts="0">
+                        <results>
+                          <test-case name="Nop.Core.Tests.ExtensionsTests.Can_check_IsNullOrDefault" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                        </results>
+                      </test-suite>
+                      <test-suite type="Namespace" name="Infrastructure" executed="True" result="Success" success="True" time="0.366" asserts="0">
+                        <results>
+                          <test-suite type="Namespace" name="DependencyManagement" executed="True" result="Success" success="True" time="0.253" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="AutofacTests" executed="True" result="Success" success="True" time="0.253" asserts="0">
+                                <results>
+                                  <test-case name="Nop.Core.Tests.Infrastructure.DependencyManagement.AutofacTests.EnumerablesFromDifferentLifetimeScopesShouldReturnDifferentCollections" description="Exercises a problem in a previous version, to make sure older Autofac.dll isn't picked up" executed="True" result="Success" success="True" time="0.252" asserts="6" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="SingletonTests" executed="True" result="Success" success="True" time="0.015" asserts="0">
+                            <results>
+                              <test-case name="Nop.Core.Tests.Infrastructure.SingletonTests.Singleton_IsNullByDefault" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Infrastructure.SingletonTests.SingletonDictionary_CanStoreStuff" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Infrastructure.SingletonTests.SingletonDictionary_IsCreatedByDefault" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Infrastructure.SingletonTests.SingletonList_CanStoreItems" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Infrastructure.SingletonTests.SingletonList_IsCreatedByDefault" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="Nop.Core.Tests.Infrastructure.SingletonTests.Singletons_ShareSame_SingletonsDictionary" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="TypeFinderTests" executed="True" result="Success" success="True" time="0.093" asserts="0">
+                            <results>
+                              <test-case name="Nop.Core.Tests.Infrastructure.TypeFinderTests.TypeFinder_Benchmark_Findings" executed="True" result="Success" success="True" time="0.092" asserts="2" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                      <test-suite type="TestFixture" name="WebHelperTests" executed="True" result="Success" success="True" time="0.033" asserts="0">
+                        <results>
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_get_queryString" executed="True" result="Success" success="True" time="0.004" asserts="3" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_get_serverVariables" executed="True" result="Success" success="True" time="0.001" asserts="3" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_get_storeHost_with_ssl" executed="True" result="Success" success="True" time="0.003" asserts="1" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_get_storeHost_without_ssl" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_get_storeLocation_in_virtual_directory" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_get_storeLocation_with_ssl" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_get_storeLocation_without_ssl" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_modify_queryString" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_modify_queryString_new_anchor_should_remove_previous_one" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_modify_queryString_with_anchor" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_remove_queryString" executed="True" result="Success" success="True" time="0.002" asserts="3" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_remove_queryString_should_ignore_input_parameter_case" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Can_remove_queryString_should_return_lowerCased_result" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                          <test-case name="Nop.Core.Tests.WebHelperTests.Get_storeLocation_should_return_lowerCased_result" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
