@@ -8,7 +8,7 @@ using Nop.Services.Localization;
 using Nop.Services.Seo;
 using Nop.Web.Models.Catalog;
 using Nop.Web.Models.Common;
-
+///Yowko test Email
 namespace Nop.Web.Controllers
 {
     public partial class BackInStockSubscriptionController : BasePublicController
