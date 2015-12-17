@@ -1,13 +1,13 @@
-﻿using System;
-using System.Web.Mvc;
-using Nop.Core;
-using Nop.Core.Domain.Catalog;
-using Nop.Core.Domain.Customers;
-using Nop.Services.Catalog;
-using Nop.Services.Localization;
-using Nop.Services.Seo;
-using Nop.Web.Models.Catalog;
-using Nop.Web.Models.Common;
+//using System;
+//using System.Web.Mvc;
+//using Nop.Core;
+//using Nop.Core.Domain.Catalog;
+//using Nop.Core.Domain.Customers;
+//using Nop.Services.Catalog;
+//using Nop.Services.Localization;
+//using Nop.Services.Seo;
+//using Nop.Web.Models.Catalog;
+//using Nop.Web.Models.Common;
 ///Yowko test Email
 namespace Nop.Web.Controllers
 {
