@@ -46,7 +46,6 @@ namespace Nop.Web.Controllers
 {
     public partial class CommonController : BasePublicController
     {
-        fasd
         #region Fields
 
         private readonly ICategoryService _categoryService;
